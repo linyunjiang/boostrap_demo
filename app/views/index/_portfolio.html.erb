@@ -1,0 +1,12 @@
+<div class="row">
+  <% images.each do |image| %>
+    <div class="col-md-4">
+      <a href="<%= image_path image %>" class="gtco-card-item image-popup" title="Project name here.">
+        <figure>
+          <div class="overlay"><i class="ti-plus"></i></div>
+          <%= image_tag image, alt: 'Image', class: 'img-responsive' %>
+        </figure>
+      </a>
+    </div>
+  <% end %>
+</div>
