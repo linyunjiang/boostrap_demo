@@ -4,6 +4,8 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+# Ignore Idea
+/.idea/*
 # Ignore bundler config.
 /.bundle
 
@@ -13,4 +15,4 @@
 /tmp
 /config/database.yml
 /config/secrets.yml
-.idea/
+public/*
